@@ -11,8 +11,6 @@ extern Controller master;
 
 extern MotorGroup driveL;
 extern MotorGroup driveR;
-extern MotorGroup fw;
-extern Motor intake;
 
 extern pros::ADIEncoder leftEncoder;
 extern pros::ADIEncoder rightEncoder;

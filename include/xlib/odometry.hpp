@@ -21,6 +21,9 @@ namespace xlib {
         Pos position;
 
         void loop();
+
+        public:
+        void init();
     };
 
     extern Odometry odom;

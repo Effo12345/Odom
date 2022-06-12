@@ -9,8 +9,8 @@
 
 void initialize() {
 	//Initialize PROS LCD
-	//pros::lcd::initialize();
-	grapher.initGraph();
+	pros::lcd::initialize();
+	odom.init();
 }
 
 /**
@@ -60,10 +60,6 @@ void autonomous() {
  */
 void opcontrol() {
 	while(true) {
-
-		//Interface values with standard output
-		if(master[ControllerDigital::left].changedToPressed())
-			interface.update();
 
 		pros::delay(20);
 	}

@@ -63,6 +63,10 @@ namespace xlib {
         }
     }
 
+    void Odometry::init() {
+        startTask("Odometry");
+    }
+
     Odometry odom;
 }
 

@@ -12,6 +12,8 @@ extern Controller master;
 extern MotorGroup driveL;
 extern MotorGroup driveR;
 
-extern pros::ADIEncoder leftEncoder;
-extern pros::ADIEncoder rightEncoder;
-extern pros::ADIEncoder backEncoder;
+extern ADIEncoder leftEncoder;
+extern ADIEncoder rightEncoder;
+extern ADIEncoder middleEncoder;
+
+extern std::shared_ptr<OdomChassisController> chassis;

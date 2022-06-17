@@ -80,7 +80,8 @@ void opcontrol(void);
 #include <array>
 #include <optional>
 
-#include "xlib/api.hpp"
+#include "globals.hpp"
+
 #endif
 
 #endif  // _PROS_MAIN_H_

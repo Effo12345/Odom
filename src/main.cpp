@@ -10,7 +10,6 @@
 void initialize() {
 	//Initialize PROS LCD
 	pros::lcd::initialize();
-	odom.init();
 }
 
 /**
@@ -60,6 +59,8 @@ void autonomous() {
  */
 void opcontrol() {
 	while(true) {
+		pros::lcd::set_text(1, chassis->getState().str());
+
 
 		pros::delay(20);
 	}
